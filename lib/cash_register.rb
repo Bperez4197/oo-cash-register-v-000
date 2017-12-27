@@ -38,7 +38,7 @@ class CashRegister
     end
 
     def void_last_transaction
-      price, quantity = @@laste_item[1], price = @@last_item[2]
+      price, quantity = @@last_item[1], price = @@last_item[2]
       @total -= (price * quantity)
       @@last_item.clear
       @@items.slice!(-1, quantity)
