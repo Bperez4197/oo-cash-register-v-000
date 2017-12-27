@@ -10,9 +10,6 @@ class CashRegister
       @@items.clear
     end
 
-    def total
-    end
-
     def add_item
     end
 
